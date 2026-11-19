@@ -1,107 +1,37 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#0b253a">
-  <meta name="description" content="سجل اهتماماً تجريبياً بالمشروع؛ البيانات لا تُرسل أو تُحفظ ولا ينشأ عن التسجيل حق شراكة.">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="ar_DZ">
-  <meta property="og:title" content="قائمة الاهتمام بالشراكة | مُنتِج MUNTIJ (نموذج تجريبي)">
-  <meta property="og:description" content="سجل اهتماماً تجريبياً بالمشروع؛ البيانات لا تُرسل أو تُحفظ ولا ينشأ عن التسجيل حق شراكة.">
-  <meta name="twitter:card" content="summary">
-  <title>قائمة الاهتمام بالشراكة | مُنتِج MUNTIJ</title>
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
-  <script src="/app.js" defer></script>
-</head>
-<body data-nav-current="waitlist">
-  <a class="skip-link" href="#main-content">انتقل إلى المحتوى</a>
-  <header class="site-header" id="top">
-  <div class="nav-container">
-    <a class="brand" href="/" aria-label="مُنتِج — الصفحة الرئيسية"><span class="brand-mark"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 39V23" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><path d="M23.8 27.6C13.4 27.6 8.4 21 8.4 11c10.4 0 17.2 4.8 17.2 14.6" fill="currentColor"/><path d="M25 22.8C25.1 13.4 31.3 7.8 41 7.6c.3 9.5-4.1 15.6-13.5 16.6" fill="currentColor" opacity=".68"/><path d="M15.5 39h17" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></span><span class="brand-copy"><strong>مُنتِج <b>MUNTIJ</b></strong><small>Agri-FinTech جزائرية · نموذج تجريبي</small></span></a>
-    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="فتح قائمة التنقل" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
-    <nav class="nav-links" id="main-nav" aria-label="التنقل الرئيسي">
-      <a class="nav-link" data-nav-route href="/">الرئيسية</a>
-      <a class="nav-link" data-nav-route href="/project/">المشروع والشراكة</a>
-      <a class="nav-link" data-nav-route href="/financial-model/">الدراسة المالية</a>
-      <a class="nav-link" data-nav-route href="/calculator-details/">شرح المعادلات</a>
-      <a class="nav-link" data-nav-route href="/innovations/">الابتكارات</a>
-      <a class="nav-link" data-nav-route href="/risks/">المخاطر</a>
-      <a class="nav-link" data-nav-route href="/transparency/">الشفافية</a>
-    </nav>
-    <a class="button button-nav" href="/waitlist/"><span aria-hidden="true">+</span> قائمة الاهتمام</a>
-  </div>
-</header>
-
-  <main id="main-content" class="main-container page-main waitlist-page">
-  <nav class="breadcrumbs" aria-label="مسار الصفحة"><a href="/">الرئيسية</a><span aria-hidden="true">›</span><span>قائمة الاهتمام بالشراكة</span></nav>
-  <p class="local-scenario-notice" data-global-scenario role="status" aria-live="polite" hidden></p>
-  <section id="view-waitlist" class="standalone-section waitlist-view" aria-labelledby="waitlist-title">
-      <div class="waitlist-layout">
-        <aside class="waitlist-aside">
-          <p class="eyebrow">المشاركة المبكرة</p>
-          <h1>كن على اطلاع عند فتح باب الشراكة في المشروع.</h1>
-          <p>سجّل اهتماماً أولياً بالشراكة في المشروع؛ التسجيل لا ينشئ صفة شريك ولا التزاماً استثمارياً.</p>
-          <div class="waitlist-points"><div><span>01</span><p><strong>سجّل اهتمامك بالشراكة</strong><small>أدخل معلومات التواصل الأساسية.</small></p></div><div><span>02</span><p><strong>احصل على رقم أولوية</strong><small>سيظهر لك مباشرة بعد الإرسال.</small></p></div><div><span>03</span><p><strong>تابع الإطلاق</strong><small>هذه النسخة لا ترسل رسائل أو تحفظ البيانات.</small></p></div></div>
-          <div class="privacy-note"><span aria-hidden="true">⌑</span><span>نموذج تجريبي محلي: لن تُرسل أو تُخزّن معلوماتك.</span></div>
-        </aside>
-
-        <div class="waitlist-form-wrap">
-          <div class="form-heading"><span class="section-index">قائمة المهتمين بالشراكة في المشروع</span><h2 id="waitlist-title">انضم إلى قائمة الانتظار</h2><p>املأ البيانات لتسجيل اهتمام تجريبي بالمشروع والحصول على رقم أولوية.</p></div>
-          <form id="waitlistForm" class="card waitlist-form" novalidate>
-            <div class="form-group">
-              <label for="userName">الاسم واللقب الكامل <span class="required-mark">*</span></label>
-              <input id="userName" name="name" type="text" autocomplete="name" placeholder="مثال: أمين بن صالح" required minlength="3" maxlength="90">
-            </div>
-            <div class="form-group">
-              <label for="userPhone">رقم الهاتف المحمول <span class="required-mark">*</span></label>
-              <input id="userPhone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="05 55 00 00 00" aria-describedby="phone-hint" required>
-              <small id="phone-hint" class="field-hint">أدخل رقم هاتف محمول جزائرياً، مثل 05 55 00 00 00.</small>
-            </div>
-            <div class="form-group">
-              <label for="userWilaya">الولاية <span class="required-mark">*</span></label>
-              <div class="select-wrap"><select id="userWilaya" name="wilaya" required><option value="">اختر ولايتك</option><option value="تبسة">12 — تبسة</option><option value="الجزائر">16 — الجزائر</option><option value="سطيف">19 — سطيف</option><option value="قسنطينة">25 — قسنطينة</option><option value="وهران">31 — وهران</option><option value="أخرى">ولاية أخرى</option></select><span aria-hidden="true">⌄</span></div>
-            </div>
-            <div class="form-group">
-              <label for="userBudget">نطاق المساهمة التقديري في المشروع</label>
-              <div class="select-wrap"><select id="userBudget" name="budget"><option value="20,000 إلى 50,000 دج">20,000 إلى 50,000 دج</option><option value="50,000 إلى 200,000 دج" selected>50,000 إلى 200,000 دج</option><option value="أكثر من 200,000 دج">أكثر من 200,000 دج</option></select><span aria-hidden="true">⌄</span></div>
-            </div>
-            <button class="button button-primary button-wide" type="submit">تأكيد التسجيل التجريبي <span aria-hidden="true">←</span></button>
-            <p class="form-legal">بالإرسال، تؤكد أن هذه تجربة واجهة فقط؛ لا ينشأ عن التسجيل شراكة أو حق في دورة تشغيلية. لن تُحفظ البيانات أو تُرسل إلى أي جهة.</p>
-            <div id="waitlistSuccess" class="success-banner" role="status" aria-live="polite" hidden><span class="success-mark" aria-hidden="true">✓</span><div><strong>تم إنشاء رقم الأولوية التجريبي!</strong><p id="successText"></p></div></div>
-          </form>
-        </div>
-      </div>
-    </section>
-</main>
-  <footer class="site-footer">
-  <div class="footer-inner">
-    <a class="brand footer-brand" href="/" aria-label="مُنتِج — الصفحة الرئيسية"><span class="brand-mark"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 39V23" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><path d="M23.8 27.6C13.4 27.6 8.4 21 8.4 11c10.4 0 17.2 4.8 17.2 14.6" fill="currentColor"/><path d="M25 22.8C25.1 13.4 31.3 7.8 41 7.6c.3 9.5-4.1 15.6-13.5 16.6" fill="currentColor" opacity=".68"/><path d="M15.5 39h17" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></span><span class="brand-copy"><strong>مُنتِج <b>MUNTIJ</b></strong><small>نموذج تجريبي</small></span></a>
-    <nav class="footer-nav" aria-label="روابط الصفحات">
-      <a href="/project/">المشروع والشراكة</a><a href="/financial-model/">الدراسة المالية</a><a href="/calculator-details/">شرح المعادلات</a><a href="/innovations/">الابتكارات</a><a href="/transparency/">الشفافية والحوكمة</a><a href="/risks/">المخاطر</a><a href="/faq/">الأسئلة الشائعة</a><a href="/dashboard/">لوحة المتابعة</a><a href="/waitlist/">قائمة الاهتمام</a>
-    </nav>
-    <p>© 2026 منصة مُنتِج MUNTIJ · ابتكارا SPHAS وNGSI</p>
-    <p class="footer-legal">بيانات الكيان القانوني (الاسم، السجل التجاري، الرقم الجبائي، وسائل التواصل) تُعلَن قبل أي إطلاق فعلي.</p>
-    <p class="footer-disclaimer">محتوى تجريبي؛ لا ينشئ شراكة ولا يمثل عرضاً استثمارياً أو ضماناً للعوائد.</p>
-    <button id="localAdminTrigger" class="local-demo-trigger" type="button" title="إعدادات محاكاة محلية؛ ليست وسيلة حماية أو تسجيل دخول" aria-label="فتح إعدادات سيناريو العرض المحلي لهذا المتصفح">⚙ إعدادات العرض</button>
-  </div>
-</footer>
-<dialog id="localAdminDialog" class="local-admin-dialog" aria-labelledby="localAdminTitle">
-  <form id="localAdminForm" class="local-admin-card" novalidate>
-    <div class="local-admin-heading"><div><p class="eyebrow">وضع العرض · هذا المتصفح فقط</p><h2 id="localAdminTitle">إعدادات السيناريو المحلي</h2></div><button id="localAdminClose" class="local-admin-close" type="button" aria-label="إغلاق لوحة السيناريو">×</button></div>
-    <p class="local-admin-warning"><strong>ليست لوحة مالك آمنة.</strong> هذه الأداة لا تطلب تسجيل دخول، ويمكن لأي شخص يستخدم هذا المتصفح الوصول إليها. تُحفظ الافتراضات في LocalStorage على هذا الجهاز/المتصفح ولا تغيّر القيم عند الزوار الآخرين.</p>
-    <div class="local-admin-fields">
-      <label for="localAdminFeed">سعر العلف (دج/كغ)<input id="localAdminFeed" type="number" min="0" step="0.1" value="75" required></label>
-      <label for="localAdminMortality">نسبة النفوق (%)<input id="localAdminMortality" type="number" min="0" max="99.9" step="0.1" value="6" required></label>
-      <label for="localAdminMeat">سعر بيع اللحم (دج/كغ)<input id="localAdminMeat" type="number" min="0" step="1" value="370" required></label>
-    </div>
-    <p id="localAdminStatus" class="local-admin-status" role="status" aria-live="polite">الإعدادات العامة: علف 75 دج/كغ، نفوق 6%، بيع 370 دج/كغ.</p>
-    <div class="local-admin-actions"><button class="button button-primary" type="submit">حفظ وتطبيق هنا</button><button id="localAdminReset" class="button local-admin-secondary" type="button">استعادة القيم العامة</button><button id="localAdminCancel" class="button local-admin-secondary" type="button">إغلاق</button></div>
-  </form>
-</dialog>
-</body>
-</html>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0b253a"><meta name="description" content="شرح شفاف لمعادلات حاسبتي التسمين والبياض ذات دورة 13 شهراً، تكاليف البداية، التدفقات النقدية، والحدود المحاسبية."><meta property="og:type" content="website"><meta property="og:locale" content="ar_DZ"><meta property="og:title" content="شرح معادلات حاسبتي مُنتِج"><meta property="og:description" content="المعادلات والافتراضات وحدود التدفق النقدي والربح المحاسبي في نموذجي الدواجن."><meta name="twitter:card" content="summary"><title>شرح معادلات الحاسبتين | مُنتِج</title><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/styles.css"><script src="/app.js" defer></script><script src="/layers.js" defer></script></head>
+<body data-nav-current="/calculator-details/"><a class="skip-link" href="#main-content">انتقل إلى المحتوى</a>
+<header class="site-header" id="top"><div class="nav-container"><a class="brand" href="/" aria-label="مُنتِج — الرئيسية"><span class="brand-mark">م</span><span class="brand-copy"><strong>مُنتِج <b>MUNTIJ</b></strong><small>Agri-FinTech جزائرية · نموذج تجريبي</small></span></a><button class="menu-toggle" id="menu-toggle" type="button" aria-label="فتح قائمة التنقل" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button><nav class="nav-links" id="main-nav" aria-label="التنقل الرئيسي"><a class="nav-link" data-nav-route href="/">الرئيسية</a><a class="nav-link" data-nav-route href="/project/">المشروع والشراكة</a><a class="nav-link" data-nav-route href="/financial-model/">الدراسة المالية</a><a class="nav-link" data-nav-route href="/calculator-details/">شرح المعادلات</a><a class="nav-link" data-nav-route href="/innovations/">الابتكارات</a><a class="nav-link" data-nav-route href="/risks/">المخاطر</a><a class="nav-link" data-nav-route href="/transparency/">الشفافية</a></nav><a class="button button-nav" href="/waitlist/">قائمة الاهتمام</a></div></header>
+<main id="main-content" class="details-main page-main details-page"><nav class="breadcrumbs" aria-label="مسار الصفحة"><a href="/">الرئيسية</a><span>›</span><a href="/financial-model/">الدراسة المالية</a><span>›</span><span>شرح المعادلات</span></nav>
+<section class="details-hero" aria-labelledby="details-title"><p class="eyebrow">الدليل المالي · إصدار حاسبتين</p><h1 id="details-title">من الافتراض إلى التدفق: ما الذي تحسبه المنصة؟</h1><p>تستخدم منصة مُنتِج نموذجين تشغيلين منفصلين: تسمين بدورة مرجعية 60 يوماً، وبياض بدورة 13 شهراً/390 يوماً. تُحدّث كل حاسبة مدخلاتها ومخرجاتها محلياً وتعرض الافتراضات والحدود بدلاً من إخفائها.</p><div class="details-rate"><span>خطا إنتاج مستقلان</span><strong>10,080 تسمين · 4,992 بياض</strong><span>وفق قرار التجهيز المبدئي</span></div><aside class="details-caveat"><span class="details-caveat-mark">!</span><div><strong>المساهمة تكون في المشروع ككل، لا في دورة منفردة.</strong><p>الأرباح التشغيلية خلال المرحلتين الأولى والثانية محتجزة لإعادة الاستثمار؛ ولا تعرض الحاسبات حصة شريك أو عائداً موزعاً. بعد اكتمال المرحلة الثالثة يمكن بحث توزيع سنوي وفق حسابات ووثائق معتمدة، من دون نسبة مفترضة أو ضمان.</p></div></aside></section>
+<section class="details-section" aria-labelledby="links-title"><div class="details-section-heading"><div><span class="section-index">01 / التنقل بين النموذجين</span><h2 id="links-title">افتح حاسبة كل نشاط</h2></div><p>تُحفظ قيم كل حاسبة في LocalStorage بمفتاح مستقل؛ لا تُرسل إلى خادم ولا تنتقل إلى متصفح زائر آخر.</p></div><div class="home-route-grid"><a class="home-route-card" href="/financial-model/broiler/"><span class="route-number">أ</span><h3>التسمين · H/4 طوابق</h3><p>30 وحدة ×336=10,080 رأساً، مساحة تقارب 690 م²، وحساب فائض التشغيل للدورة.</p><span class="route-arrow">←</span></a><a class="home-route-card" href="/financial-model/layers/"><span class="route-number">ب</span><h3>البياض · A/3 طوابق</h3><p>52 مجموعة ×96=4,992 طائراً، مساحة نحو 425 م²، ودورة 390 يوماً بجدول شهري.</p><span class="route-arrow">←</span></a></div></section>
+<section class="details-section" aria-labelledby="broiler-formula-title"><div class="details-section-heading"><div><span class="section-index">02 / معادلات التسمين</span><h2 id="broiler-formula-title">حظيرة التسمين بدورة 60 يوماً</h2></div><p>الأعداد والأوزان والأسعار قيم إدخال افتراضية قابلة للتعديل، وليست قياسات تشغيل.</p></div><div class="equation-panel"><div class="equation-panel-heading"><span class="equation-mark">ƒ</span><div><h3>التسلسل الحسابي للدورة</h3><p>يتغير الإنتاج والإيراد والتكلفة مع تغيير مدخلات حاسبة التسمين.</p></div></div><div class="equation-lines">
+<div class="equation-line"><span>الطيور الباقية بعد النفوق المفترض:</span><bdi dir="ltr">placed birds × (1 − mortality rate)</bdi></div>
+<div class="equation-line"><span>إنتاج اللحم (كغ):</span><bdi dir="ltr">surviving birds × average live weight</bdi></div>
+<div class="equation-line"><span>الإيراد:</span><bdi dir="ltr">meat output (kg) × sale price per kg</bdi></div>
+<div class="equation-line"><span>العلف (كغ):</span><bdi dir="ltr">placed birds × feed intake per bird per cycle</bdi></div>
+<div class="equation-line"><span>تكلفة التشغيل المباشرة:</span><bdi dir="ltr">chicks + feed + veterinary + utilities + labor + maintenance</bdi></div>
+<div class="equation-line primary"><span>الفائض/العجز النقدي التشغيلي للدورة:</span><bdi dir="ltr">revenue − direct operating cost</bdi></div>
+<div class="equation-line"><span>سعر التعادل المباشر التقريبي:</span><bdi dir="ltr">direct operating cost ÷ meat output (kg)</bdi></div>
+<div class="equation-line"><span>FCR الحسابي:</span><bdi dir="ltr">feed consumed (kg) ÷ meat output (kg)</bdi></div>
+</div><p class="equation-caption">النموذج يفترض ثبات استهلاك العلف لكل طائر مُدخل خلال الدورة ولا يصمم منحنى استهلاك يومي أو يخصم العلف بناءً على توقيت النفوق. لذلك يبقى مؤشراً مبسطاً، ويلزم إدخال بيانات مزرعة موثوقة للتحقق منه. تقدير السنة = فائض الدورة × افتراض مستقل قدره 5 دورات سنوياً، ولا يضمن ذلك خمس دورات فعلية. كما يمكن إسقاط نتيجة دورة واحدة خطياً على 1/2/3/6 دورات؛ خيار 6 لا يعني عاماً تقويمياً أو تدفقاً محققاً، ولا يغيّر افتراض الخمس دورات السنوي.</p></div></section>
+<section class="details-section" aria-labelledby="layers-formula-title"><div class="details-section-heading"><div><span class="section-index">03 / معادلات البياض</span><h2 id="layers-formula-title">حظيرة البياض بدورة 13 شهراً/390 يوماً</h2></div><p>تجمع الحاسبة بيانات المنحنى المقدم مع افتراض نفوق خطي موضح أدناه.</p></div><div class="equation-panel"><div class="equation-panel-heading"><span class="equation-mark">ƒ</span><div><h3>منحنى يومي وتدفق شهري</h3><p>المدخلات الأساسية: 120 يوماً عند 94% HDP، ثم 150 عند 90%، ثم 120 عند 82%.</p></div></div><div class="equation-lines">
+<div class="equation-line"><span>مدة الدورة:</span><bdi dir="ltr">120 + 150 + 120 = 390 days ≈ 13 months</bdi></div>
+<div class="equation-line"><span>الطيور الحية المفترضة في اليوم t:</span><bdi dir="ltr">capacity × [1 − mortality × (t + 0.5) ÷ total days]</bdi></div>
+<div class="equation-line"><span>بيض اليوم t:</span><bdi dir="ltr">live birds at t × HDP rate for the active stage</bdi></div>
+<div class="equation-line"><span>عدد الصواني المكافئ والإيراد:</span><bdi dir="ltr">total eggs ÷ 30; trays × tray price (420 DZD baseline)</bdi></div>
+<div class="equation-line"><span>العلف المستهلك:</span><bdi dir="ltr">Σ(live birds per day × 0.12 kg × feed price 67 DZD/kg)</bdi></div>
+<div class="equation-line"><span>إيراد القطيع المستبعد:</span><bdi dir="ltr">end birds × 1.9 kg × 300 DZD/kg</bdi></div>
+<div class="equation-line"><span>مصاريف المرافق/العمالة/الصيانة:</span><bdi dir="ltr">2,448,333 × capacity ÷ 5,000 × days ÷ 390</bdi></div>
+<div class="equation-line"><span>مخصص بداية القطيع:</span><bdi dir="ltr">implied pullet budget + feed prepayment for first 90 days</bdi></div>
+<div class="equation-line primary"><span>صافي تدفق الدورة قبل الإهلاك والتمويل والضرائب:</span><bdi dir="ltr">egg sales + cull sales − setup − remaining feed cash − other operating costs</bdi></div>
+<div class="equation-line"><span>سعر التعادل الحسابي للصينية:</span><bdi dir="ltr">(total cycle cash outflow − cull revenue) ÷ trays</bdi></div>
+<div class="equation-line"><span>FCR كتلة البيض:</span><bdi dir="ltr">feed kg ÷ (eggs × assumed 0.060 kg/egg)</bdi></div>
+</div><p class="equation-caption">يُوزّع النفوق البالغ 5% خطياً على 390 يوماً؛ وهذا لا يعكس تباين النفوق حسب العمر أو الأمراض. يُشتق مخصص شراء الطيور من 9.4م دج بعد تقدير علف أول 90 يوماً، وبالتالي ليس عرض سعر للدجاجة. يظهر العلف المسبق في تدفق الشهر 0 ولا يخصم ثانيةً في الأشهر الأولى. يفترض العرض تحصيلاً مستمراً وبيعاً كاملاً دون كسر أو فاقد أو تأخر، ويستخدم وزن 60غ افتراضاً حسابياً لا وزناً مقاساً.</p></div></section>
+<section class="details-section" aria-labelledby="cost-distinction-title"><div class="details-section-heading"><div><span class="section-index">04 / التمييز المحاسبي</span><h2 id="cost-distinction-title">التدفق النقدي ليس ربحاً محاسبياً</h2></div><p>المؤشرات المتاحة حالياً محدودة عمداً حتى لا تنسب الأصول المشتركة إلى نشاط دون أساس موثق.</p></div><div class="formula-steps"><article class="formula-step"><span class="formula-step-number">01</span><h3>التدفق التشغيلي</h3><p>يعرض النقد المتوقع بحسب افتراضات الإيرادات والمصروفات المدرجة فقط، قبل ضرائب وتمويل وفواقد وتأخيرات قد لا تكون محسوبة.</p></article><article class="formula-step"><span class="formula-step-number">02</span><h3>الإهلاك</h3><p>لا يحتسب بعد: أصول المرحلة الأولى مشتركة بقيمة تقديرية 48.7م دج. يلزم سجل أصل وتخصيص كل بند وعمره وطريقة إهلاكه بين الحظيرتين.</p></article><article class="formula-step"><span class="formula-step-number">03</span><h3>النقد القابل للتوسع</h3><p>الفائض لا يساوي رصيداً متاحاً؛ تُخصم منه الاحتياجات العاملة والديون والالتزامات والاحتياطيات قبل قرار إعادة الاستثمار.</p></article></div></section>
+<section class="details-section" aria-labelledby="capital-formula-title"><div class="details-section-heading"><div><span class="section-index">05 / رأس المال التقديري</span><h2 id="capital-formula-title">جمع ميزانية الوحدة الأولى</h2></div><p>المجموع يطبق حسابياً البنود الواردة، لكنه لا يثبت كفاية التمويل أو دقة التقدير.</p></div><div class="example-table-wrap"><table class="example-table"><thead><tr><th scope="col">المكوّن</th><th scope="col">مليون دج</th><th scope="col">نوعه</th></tr></thead><tbody><tr><td>أقفاص وتجهيز آلي للتسمين والبياض</td><td class="number-cell">15.70</td><td>أصل/تجهيز تقديري</td></tr><tr><td>بناء بيتين بمساحة نحو 1,115م²</td><td class="number-cell">22.30</td><td>أصل تقديري</td></tr><tr><td>تهوية وتبريد وتدفئة ومتحكمات</td><td class="number-cell">6.70</td><td>تجهيز تقديري</td></tr><tr><td>كهرباء ومولد وماء</td><td class="number-cell">4.00</td><td>تجهيز تقديري</td></tr><tr><td>تشغيل دورة التسمين الأولى</td><td class="number-cell">6.00</td><td>رأس مال عامل</td></tr><tr><td>قطيع بياض جاهز + 3 أشهر علف</td><td class="number-cell">9.40</td><td>رأس مال عامل؛ يحتاج تفصيلاً</td></tr><tr><td>تراخيص وقانوني ومنصة ودمج SPHAS/NGSI</td><td class="number-cell">4.00</td><td>تأسيس/خدمات تقديرية</td></tr><tr><th scope="row">المجموع قبل الاحتياطي</th><td class="number-cell"><strong>68.10</strong></td><td>جمع حسابي</td></tr><tr><th scope="row">احتياطي 10% على المجموع</th><td class="number-cell"><strong>6.81</strong></td><td>احتياطي تأسيسي مقترح</td></tr><tr><th scope="row">الإجمالي المقدر</th><td class="number-cell"><strong>74.91</strong></td><td>نحو 75م؛ تقدير أولي غير مدقق</td></tr></tbody></table></div></section>
+<aside class="details-caveat" aria-label="حدود المنصة"><span class="details-caveat-mark">!</span><div><strong>المنصة ليست دفتر حسابات أو سجل مساهمين.</strong><p>كل حاسبة تحفظ مدخلاتها في LocalStorage محلياً على جهاز المستخدم؛ لا إرسال ولا مزامنة ولا تتبع حقيقي للأرباح أو المساهمات. لا توزع الأرباح في المرحلتين الأولى والثانية، ويظل توقيت المرحلة الثالثة مرتبطاً بالتمويل والأرباح المتحققة. كما أن الدورة التشغيلية للبياض 390 يوماً لا تعني سنة تقويمية.</p></div></aside>
+<div class="details-bottom-action"><a class="button button-green" href="/financial-model/">ارجع إلى بوابة الحاسبتين <span aria-hidden="true">←</span></a></div></main>
+<footer class="site-footer"><div class="footer-inner"><a class="brand footer-brand" href="/"><span class="brand-mark">م</span><span class="brand-copy"><strong>مُنتِج <b>MUNTIJ</b></strong><small>نموذج تجريبي</small></span></a><nav class="footer-nav" aria-label="روابط الصفحات"><a href="/project/">المشروع والشراكة</a><a href="/financial-model/">الدراسة المالية</a><a href="/calculator-details/">شرح المعادلات</a><a href="/innovations/">الابتكارات</a><a href="/transparency/">الشفافية والحوكمة</a><a href="/risks/">المخاطر</a><a href="/faq/">الأسئلة الشائعة</a><a href="/dashboard/">لوحة المتابعة</a><a href="/waitlist/">قائمة الاهتمام</a></nav><p>© 2026 منصة مُنتِج MUNTIJ</p><p class="footer-disclaimer">نموذج تجريبي؛ لا ينشئ شراكة ولا يضمن عائداً.</p></div></footer>
+</body></html>
